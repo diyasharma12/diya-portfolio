@@ -8,6 +8,7 @@ import portfolio from "../assets/img/portfolio.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import tic from "../assets/img/tic-tac-toe.png";
 import calculator from "../assets/img/calc_img.png";
+import formBuilder from "../assets/img/formBuilder.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -21,10 +22,10 @@ export const Projects = () => {
       githubLink: "https://github.com/diyasharma12/Creatify"
     },
     {
-      title: "FitClub",
-      description: "Full stack gym website",
-      imgUrl: fitClub,
-      githubLink: "https://github.com/diyasharma12/FitClub",
+      title: "FormBuilder",
+      description: "Full stack quiz website",
+      imgUrl: formBuilder,
+      githubLink: "https://github.com/diyasharma12/formBuilder",
     },
     {
       title: "CineScope",
@@ -34,6 +35,12 @@ export const Projects = () => {
     },
   ];
     const projects2 = [
+      {
+      title: "FitClub",
+      description: "Full stack gym website",
+      imgUrl: fitClub,
+      githubLink: "https://github.com/diyasharma12/FitClub",
+    },
     {
       title: "Task manager",
       description: "Task management app ",
@@ -46,11 +53,6 @@ export const Projects = () => {
       imgUrl: calculator,
       githubLink: "https://github.com/diyasharma12/calculator",
     },
-    {
-      title: "Portfolio Website",
-      description: "WebD Project",
-      imgUrl: portfolio,
-    },
   ];
     const projects3 = [
       {
@@ -58,6 +60,11 @@ export const Projects = () => {
         description: "WebD Project",
         imgUrl: tic,
       },
+      {
+      title: "Portfolio Website",
+      description: "WebD Project",
+      imgUrl: portfolio,
+    },
     ];
 
   return (
